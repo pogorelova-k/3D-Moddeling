@@ -1,5 +1,5 @@
 // swiper portfolio
-const slider = () => {
+const sliderFunctional = () => {
     const 	slide = document.querySelectorAll('.portfolio-item'),
         slider = document.querySelector('.portfolio-content'),
         dots = document.querySelector('.portfolio-dots');
@@ -99,4 +99,4 @@ const slider = () => {
     startSlide(1500);
 };
 
-export default slider;
+export default sliderFunctional;
